@@ -1,3 +1,7 @@
+provider "aws" {
+  region = "us-east-1"
+}
+
 resource "aws_s3_bucket" "spaces_jenkins_prod_backup" {
     bucket = var.bucket_name
     
