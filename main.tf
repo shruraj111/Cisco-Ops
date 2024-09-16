@@ -19,7 +19,5 @@ resource "server_side_encryption_configuration" "spaces_jenkins_prod_backup" {
             sse_algorithm = "aws:kms"
             //kms_master_key_id = var.kms_key_id
         }
-    }
-    
-  
+    } 
 }
